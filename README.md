@@ -1,7 +1,7 @@
 # Dataset Doctor
 
-Dataset Doctor is a command-line tool for diagnosing CSV dataset quality and
-machine-learning readiness. It loads a CSV file, calculates structural
+Dataset Doctor is a command-line tool for diagnosing CSV dataset quality for
+machine-learning workflows. It loads a CSV file, calculates structural
 statistics, detects a small set of common data-quality issues, and renders a
 terminal, JSON, or standalone HTML report.
 
@@ -134,7 +134,7 @@ duplicate detection and per-column uniqueness calculations may require
 substantial memory for large datasets. There are currently no automatic file
 size limits, streaming safeguards, or chunked-processing mode.
 
-## Release notes
+## Generated reports
 
 Generated JSON and HTML reports are demonstration outputs and are not required
 for the source distribution. For a portfolio README, terminal output or a
