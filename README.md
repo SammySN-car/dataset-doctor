@@ -5,6 +5,9 @@ machine-learning readiness. It loads a CSV file, calculates structural
 statistics, detects a small set of common data-quality issues, and renders a
 terminal, JSON, or standalone HTML report.
 
+[GitHub repository](https://github.com/SammySN-car/dataset-doctor) ·
+[Issue tracker](https://github.com/SammySN-car/dataset-doctor/issues)
+
 ## Current features
 
 - CSV loading with UTF-8 and UTF-8 BOM support.
@@ -137,3 +140,7 @@ Generated JSON and HTML reports are demonstration outputs and are not required
 for the source distribution. For a portfolio README, terminal output or a
 locally captured HTML report can be used as a screenshot source without
 committing generated report files.
+
+## License
+
+Dataset Doctor is licensed under the [MIT License](LICENSE).
