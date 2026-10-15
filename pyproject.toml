@@ -5,9 +5,31 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "dataset-doctor"
 version = "0.1.0"
-description = "A command-line tool for diagnosing CSV dataset quality."
+description = "A Python CLI for profiling CSV datasets and detecting common data quality issues."
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [
+    { name = "Samar Nathani" },
+]
+license = { file = "LICENSE" }
+keywords = [
+    "csv",
+    "data-quality",
+    "data-profiling",
+    "developer-tools",
+    "pandas",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Quality Assurance",
+]
 dependencies = [
     "pandas>=2.0",
 ]
@@ -20,6 +42,11 @@ dev = [
 
 [project.scripts]
 dataset-doctor = "dataset_doctor.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/SammySN-car/dataset-doctor"
+Repository = "https://github.com/SammySN-car/dataset-doctor"
+"Issue Tracker" = "https://github.com/SammySN-car/dataset-doctor/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
