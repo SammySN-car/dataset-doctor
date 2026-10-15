@@ -1,0 +1,6 @@
+record_id,age,department,satisfaction_score,employment_type
+1001,29,Engineering,8,Full-time
+1002,34,Design,,Full-time
+1003,41,Engineering,7,Full-time
+1003,41,Engineering,7,Full-time
+1004,26,Support,9,Full-time
